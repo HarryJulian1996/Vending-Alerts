@@ -1,0 +1,21 @@
+# Core dependencies
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Scheduling (optional - for scheduler.py)
+# If you prefer cron jobs, you can skip this
+APScheduler>=3.10.0
+
+# Optional: richer HTML parsing for Campbells scraper
+# Install if scraper results are incomplete
+# beautifulsoup4>=4.12.0
+# lxml>=4.9.0
+
+# Optional: SMS via Twilio (only needed if sms.enabled = true in config.json)
+# twilio>=8.0.0
+
+# Optional: Improved retry logic
+# tenacity>=8.2.0
+
+# Optional: Rate limiting to be polite to retailer servers
+# ratelimit>=2.2.1
