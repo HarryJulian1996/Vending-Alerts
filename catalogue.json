@@ -1,0 +1,224 @@
+{
+    "catalogue": [
+          {
+                  "id": "coca-cola-375ml",
+                  "name": "Coca-Cola 375ml Can",
+                  "category": "drinks",
+                  "brand": "Coca-Cola",
+                  "keywords": ["coke", "coca cola", "cola 375"],
+                  "target_buy_price": 1.20,
+                  "vending_sell_price": 3.50,
+                  "unit": "can",
+                  "pack_sizes": [24, 30]
+          },
+          {
+                  "id": "coca-cola-600ml",
+                  "name": "Coca-Cola 600ml Bottle",
+                  "category": "drinks",
+                  "brand": "Coca-Cola",
+                  "keywords": ["coke 600", "coca cola bottle", "cola 600ml"],
+                  "target_buy_price": 1.80,
+                  "vending_sell_price": 4.50,
+                  "unit": "bottle",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "pepsi-375ml",
+                  "name": "Pepsi 375ml Can",
+                  "category": "drinks",
+                  "brand": "Pepsi",
+                  "keywords": ["pepsi", "pepsi can", "pepsi 375"],
+                  "target_buy_price": 1.10,
+                  "vending_sell_price": 3.50,
+                  "unit": "can",
+                  "pack_sizes": [24, 30]
+          },
+          {
+                  "id": "water-600ml",
+                  "name": "Mount Franklin Still Water 600ml",
+                  "category": "water",
+                  "brand": "Mount Franklin",
+                  "keywords": ["mount franklin", "water 600", "still water", "mt franklin"],
+                  "target_buy_price": 0.80,
+                  "vending_sell_price": 3.00,
+                  "unit": "bottle",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "powerade-600ml",
+                  "name": "Powerade 600ml",
+                  "category": "drinks",
+                  "brand": "Powerade",
+                  "keywords": ["powerade", "sports drink", "powerade 600"],
+                  "target_buy_price": 1.50,
+                  "vending_sell_price": 4.50,
+                  "unit": "bottle",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "redbull-250ml",
+                  "name": "Red Bull Energy Drink 250ml",
+                  "category": "energy_drinks",
+                  "brand": "Red Bull",
+                  "keywords": ["red bull", "redbull", "energy drink 250"],
+                  "target_buy_price": 2.00,
+                  "vending_sell_price": 5.00,
+                  "unit": "can",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "monster-500ml",
+                  "name": "Monster Energy 500ml",
+                  "category": "energy_drinks",
+                  "brand": "Monster",
+                  "keywords": ["monster energy", "monster drink", "monster 500"],
+                  "target_buy_price": 2.20,
+                  "vending_sell_price": 5.50,
+                  "unit": "can",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "v-energy-250ml",
+                  "name": "V Energy Drink 250ml",
+                  "category": "energy_drinks",
+                  "brand": "V Energy",
+                  "keywords": ["v energy", "v drink", "v green", "v blue"],
+                  "target_buy_price": 1.80,
+                  "vending_sell_price": 4.50,
+                  "unit": "can",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "smiths-chips-45g",
+                  "name": "Smith's Crinkle Cut Chips 45g",
+                  "category": "snacks",
+                  "brand": "Smith's",
+                  "keywords": ["smiths chips", "crinkle cut", "smiths 45g"],
+                  "target_buy_price": 0.90,
+                  "vending_sell_price": 3.00,
+                  "unit": "bag",
+                  "pack_sizes": [18, 36]
+          },
+          {
+                  "id": "twisties-45g",
+                  "name": "Twisties Cheese 45g",
+                  "category": "snacks",
+                  "brand": "Twisties",
+                  "keywords": ["twisties", "cheese twisties", "twisties 45g"],
+                  "target_buy_price": 0.90,
+                  "vending_sell_price": 3.00,
+                  "unit": "bag",
+                  "pack_sizes": [18]
+          },
+          {
+                  "id": "kit-kat-45g",
+                  "name": "Kit Kat 45g",
+                  "category": "chocolate",
+                  "brand": "Nestle",
+                  "keywords": ["kit kat", "kitkat", "kit kat 45g"],
+                  "target_buy_price": 0.80,
+                  "vending_sell_price": 3.00,
+                  "unit": "bar",
+                  "pack_sizes": [24, 36]
+          },
+          {
+                  "id": "snickers-50g",
+                  "name": "Snickers 50g",
+                  "category": "chocolate",
+                  "brand": "Mars",
+                  "keywords": ["snickers", "snickers bar", "snickers 50g"],
+                  "target_buy_price": 0.85,
+                  "vending_sell_price": 3.00,
+                  "unit": "bar",
+                  "pack_sizes": [24, 40]
+          },
+          {
+                  "id": "mars-bar-53g",
+                  "name": "Mars Bar 53g",
+                  "category": "chocolate",
+                  "brand": "Mars",
+                  "keywords": ["mars bar", "mars chocolate", "mars 53g"],
+                  "target_buy_price": 0.85,
+                  "vending_sell_price": 3.00,
+                  "unit": "bar",
+                  "pack_sizes": [24, 40]
+          },
+          {
+                  "id": "twix-50g",
+                  "name": "Twix 50g",
+                  "category": "chocolate",
+                  "brand": "Mars",
+                  "keywords": ["twix", "twix bar", "twix 50g"],
+                  "target_buy_price": 0.85,
+                  "vending_sell_price": 3.00,
+                  "unit": "bar",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "mi-goreng-noodles",
+                  "name": "Indomie Mi Goreng Noodles 85g",
+                  "category": "noodles",
+                  "brand": "Indomie",
+                  "keywords": ["mi goreng", "indomie", "instant noodles", "noodles 85g"],
+                  "target_buy_price": 0.40,
+                  "vending_sell_price": 2.50,
+                  "unit": "pack",
+                  "pack_sizes": [30, 40]
+          },
+          {
+                  "id": "maggi-noodles",
+                  "name": "Maggi 2 Minute Noodles 85g",
+                  "category": "noodles",
+                  "brand": "Maggi",
+                  "keywords": ["maggi", "2 minute noodles", "maggi noodles", "instant noodles"],
+                  "target_buy_price": 0.45,
+                  "vending_sell_price": 2.50,
+                  "unit": "pack",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "jack-links-beef-jerky",
+                  "name": "Jack Link's Beef Jerky 25g",
+                  "category": "jerky",
+                  "brand": "Jack Link's",
+                  "keywords": ["jack links", "beef jerky", "jerky 25g"],
+                  "target_buy_price": 1.50,
+                  "vending_sell_price": 5.00,
+                  "unit": "pack",
+                  "pack_sizes": [12, 24]
+          },
+          {
+                  "id": "slim-jim-jerky",
+                  "name": "Bepps Beef Jerky 25g",
+                  "category": "jerky",
+                  "brand": "Bepps",
+                  "keywords": ["bepps jerky", "beef jerky", "jerky 25g"],
+                  "target_buy_price": 1.20,
+                  "vending_sell_price": 4.50,
+                  "unit": "pack",
+                  "pack_sizes": [12]
+          },
+          {
+                  "id": "schweppes-lemonade-375ml",
+                  "name": "Schweppes Lemonade 375ml Can",
+                  "category": "drinks",
+                  "brand": "Schweppes",
+                  "keywords": ["schweppes lemonade", "lemonade can", "schweppes 375"],
+                  "target_buy_price": 1.10,
+                  "vending_sell_price": 3.50,
+                  "unit": "can",
+                  "pack_sizes": [24]
+          },
+          {
+                  "id": "sprite-375ml",
+                  "name": "Sprite 375ml Can",
+                  "category": "drinks",
+                  "brand": "Sprite",
+                  "keywords": ["sprite", "sprite can", "sprite 375"],
+                  "target_buy_price": 1.10,
+                  "vending_sell_price": 3.50,
+                  "unit": "can",
+                  "pack_sizes": [24, 30]
+          }
+    ]
+}
