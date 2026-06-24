@@ -1,0 +1,36 @@
+# Credentials and sensitive config - NEVER commit these
+config.json
+manual_prices.csv
+.env
+
+# Alert history (local data, not needed in git)
+alerts_history.json
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
