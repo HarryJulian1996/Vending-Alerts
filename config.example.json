@@ -1,0 +1,55 @@
+{
+  "_comment": "Copy this file to config.json and fill in your credentials. Never commit config.json to git.",
+
+  "email": {
+    "enabled": true,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password",
+    "from_address": "your-email@gmail.com",
+    "to_addresses": ["your-email@gmail.com", "another@example.com"]
+  },
+
+  "sms": {
+    "enabled": false,
+    "account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "auth_token": "your_auth_token",
+    "from_number": "+61400000000",
+    "to_numbers": ["+61412345678"]
+  },
+
+  "push": {
+    "enabled": true,
+    "provider": "ntfy",
+    "_ntfy_comment": "Free push notifications. Install ntfy app on your phone, subscribe to your topic.",
+    "ntfy_topic": "my-vending-alerts-unique-topic-name",
+    "ntfy_server": "https://ntfy.sh",
+
+    "_pushover_comment": "Alternative: Pushover (paid one-time $5 app). Set provider to pushover.",
+    "pushover_user_key": "YOUR_PUSHOVER_USER_KEY",
+    "pushover_api_token": "YOUR_PUSHOVER_APP_TOKEN"
+  },
+
+  "campbells": {
+    "_comment": "Optional: Campbells Wholesale login for authenticated pricing",
+    "username": "your-campbells-username",
+    "password": "your-campbells-password"
+  },
+
+  "schedule": {
+    "_comment": "APScheduler cron schedule (if using scheduler.py). All times in Australia/Sydney timezone.",
+    "morning_check": {"hour": 7, "minute": 0, "day_of_week": "mon-fri"},
+    "afternoon_check": {"hour": 14, "minute": 0, "day_of_week": "mon-fri"},
+    "weekend_check": {"hour": 9, "minute": 0, "day_of_week": "sat,sun"},
+
+    "_simple_comment": "If using simple scheduler (no APScheduler), set how many hours between checks.",
+    "interval_hours": 12
+  },
+
+  "filters": {
+    "_comment": "Optional filters applied before sending alerts",
+    "min_discount_pct": 10,
+    "beats_target_only": false
+  }
+}
